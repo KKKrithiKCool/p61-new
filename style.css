@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right top, #00ffa6, #91db41, #c9ae00, #f07400, #ff0037);
+    font-family: 'Potta One', cursive;
+}
+
+div {
+    background-color: black;
+
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-family: 'Potta One', cursive;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    text-align: center;
+}
+
+.menu {
+    position: fixed;
+    list-style-type: none;
+    z-index: 20;
+    list-style: none;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
+li {
+    float: left;
+    padding: 5;
+    font-size: 19;
+    color: black;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.i {
+    color: red;
+    text-decoration: underline;
+}
